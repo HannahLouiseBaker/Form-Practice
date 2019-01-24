@@ -21,5 +21,28 @@
       <h2>On a scale from 1-10, how close are you to your siblings?</h2>
       <label for="closeness">
         <span>1</span><input id="closeness" type="range" min="1" max="10" step="1" name="closeness"><span>10</span>
+      </label>
+      <br/>
+      <h2>Do you have brothers, sisters, both or neither?</h2>
+      <label for="sex">
+        <select id="sex">
+          <option value="brothers">Brother(s)</option>
+          <option value="sisters">Sister(s)</option>
+          <option value="both">Both</option>
+          <option value="neither">Neither</option>
+        </select>
+      </label>
+      <br/>
+      <h2>What are their names?</h2>
+      <label for="name">
+        <input id="name" type="text" list="names" name="name">
+          <datalist id="names">
+            <option value="mary">Mary</option>
+            <option value="mags">Mags</option>
+            <option value="millie">Millie</option>
+            <option value="molly">Molly</option>
+            <option value="mandy">Mandy</option>
+          </datalist>
+      </label>
   </body>
 </html>
